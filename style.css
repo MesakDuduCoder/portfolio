@@ -5,8 +5,8 @@ header {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
 .top-nav {
@@ -14,12 +14,12 @@ header {
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  left: 0px;
-  right: 0px;
-  top:44px;
+  left: 0;
+  right: 0;
+  top: 44px;
   height: 48px;
   width: 375px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 #header-btn1 {
@@ -61,7 +61,7 @@ header {
   background-color: transparent;
 }
 
-.top-nav button nav img{
+.top-nav button nav img {
   width: 18px;
   height: 12px;
 }
@@ -75,7 +75,7 @@ header {
   position: absolute;
   width: 375px;
   height: 604px;
-  left: calc(50% - 375px/2);
+  left: calc(50% - 375px / 2);
   top: 92px;
   z-index: 0;
 }
@@ -86,15 +86,16 @@ header {
   display: flex;
   align-items: center;
 }
-.main-text1 h2{
+
+.main-text1 h2 {
   font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #172B4D;
-    padding-right: 60px;
-    margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  padding-right: 60px;
+  margin: 0;
 }
 
 .main-text2 {
@@ -122,7 +123,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 16px;
   width: 120px;
   height: 24px;
@@ -132,7 +133,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 120px;
   height: 24px;
@@ -147,7 +148,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .socials-icons {
@@ -247,7 +248,7 @@ header {
   width: 15px;
   height: 15px;
   left: 180px;
-    top: 20px;
+  top: 20px;
   object-fit: contain;
 }
 
@@ -268,6 +269,7 @@ header {
   top: 210px;
   object-fit: contain;
 }
+
 #icon-10 {
   position: absolute;
   width: 16px;
@@ -285,6 +287,7 @@ header {
   width: 100px;
   object-fit: contain;
 }
+
 #icon-12 {
   position: absolute;
   width: 60px;
@@ -293,6 +296,7 @@ header {
   bottom: -28px;
   object-fit: contain;
 }
+
 #icon-13 {
   position: absolute;
   width: 40px;
