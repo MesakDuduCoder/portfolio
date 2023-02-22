@@ -1,0 +1,303 @@
+
+header {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 0px;
+  top: 0px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top:44px;
+  height: 48px;
+  width: 375px;
+  border-radius: 0px;
+}
+
+#header-btn1 {
+  width: 60px;
+  height: 40px;
+  margin-left: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+#header-btn2 {
+  width: 18px;
+  height: 12px;
+  margin-right: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.top-nav button a {
+  width: 60px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.top-nav button a img {
+  width: 60px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.top-nav button nav {
+  width: 18px;
+  height: 12px;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.top-nav button nav img{
+  width: 18px;
+  height: 12px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px/2);
+  top: 92px;
+  z-index: 0;
+}
+
+.main-text1 {
+  width: 327px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+.main-text1 h2{
+  font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172B4D;
+    padding-right: 60px;
+    margin: 0;
+}
+
+.main-text2 {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.main-text2 h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0;
+}
+
+.socials-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 120px;
+  height: 24px;
+}
+
+.socials-text .supporting-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 120px;
+  height: 24px;
+}
+
+.socials-text .supporting-text h4 {
+  width: 120px;
+  height: 24px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+}
+
+.socials-icons {
+  width: 170.17px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.socials-icons ul {
+  width: 170.17px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+.socials-icons li a {
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+
+.socials-icons li a img {
+  width: 20px;
+  height: 20px;
+}
+
+.main-background {
+  position: absolute;
+  width: 375px;
+  height: 587px;
+  top: 104px;
+  z-index: 1;
+}
+
+#icon-1 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: -10;
+  top: 30px;
+  object-fit: contain;
+}
+
+#icon-2 {
+  position: absolute;
+  left: 120px;
+  top: 50px;
+  height: 25px;
+  width: 30px;
+  object-fit: contain;
+}
+
+#icon-3 {
+  position: absolute;
+  left: 122px;
+  top: 60px;
+  height: 12px;
+  width: 12px;
+  object-fit: contain;
+}
+
+#icon-4 {
+  position: absolute;
+  right: -25px;
+  top: 40px;
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+#icon-5 {
+  position: absolute;
+  width: 26px;
+  height: 14px;
+  right: 25px;
+  bottom: 145px;
+  object-fit: contain;
+}
+
+#icon-6 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 130px;
+  bottom: 0;
+  object-fit: contain;
+}
+
+#icon-7 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 180px;
+    top: 20px;
+  object-fit: contain;
+}
+
+#icon-8 {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  right: 33px;
+  bottom: 122px;
+  object-fit: contain;
+}
+
+#icon-9 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: 60px;
+  top: 210px;
+  object-fit: contain;
+}
+#icon-10 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 50px;
+  bottom: 35px;
+  object-fit: contain;
+}
+
+#icon-11 {
+  position: absolute;
+  right: -20px;
+  top: -22px;
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+#icon-12 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 133px;
+  bottom: -28px;
+  object-fit: contain;
+}
+#icon-13 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: -14px;
+  top: 0;
+  object-fit: contain;
+}
