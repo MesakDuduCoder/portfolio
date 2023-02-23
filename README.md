@@ -21,9 +21,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio_mobile_version] <a name="about-project"></a>
+# 📖 [Portfolio-mobile] <a name="about-project"></a>
 
-**[Portfolio_mobile_version]** is a responsive portfolio website for mobile platforms built using html and css, this website contains information about my personal inforamtion and my skills and projects.
+**[Portfolio-mobile]** is a responsive portfolio website for mobile platforms built using html and css, this website contains information about my personal inforamtion and my skills and projects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -125,6 +125,6 @@ I would like to thank my coding partner Maboela Maserame for the support and tea
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
