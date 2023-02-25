@@ -10,10 +10,11 @@
   left: 0;
   top: 718px;
   box-sizing: border-box;
+  background-color: #e5e5e5;
 }
 
 .card-works {
-  border: 1px solid #dfe;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   width: 327px;
   display: flex;

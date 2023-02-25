@@ -11,6 +11,7 @@
   left: 0;
   top: 3418px;
   box-sizing: border-box;
+  background-color: #fff;
 }
 
 .top {
@@ -23,7 +24,7 @@
   height: 409px;
 }
 
-.top h2 {
+.top h3 {
   width: 327px;
   height: 101px;
   font-family: 'Poppins', sans-serif;
@@ -159,7 +160,7 @@
   border-bottom: 1px solid #fff;
 }
 
-.skill-list-names h1 {
+.skill-list-names h4 {
   width: 237px;
   height: 24px;
   font-family: 'Poppins', sans-serif;
@@ -187,6 +188,11 @@
   align-items: center;
   width: 24px;
   height: 24px;
+  background: #fff;
+}
+
+.arrow-container svg {
+  background: #fff;
 }
 
 .languages-list {
@@ -210,7 +216,7 @@
   gap: 16px;
 }
 
-.languages-list li h1 {
+.languages-list li h5 {
   height: 24px;
   width: 215px;
   font-family: 'Poppins', sans-serif;
@@ -226,5 +232,5 @@
 .skill-list-2 {
   width: 327px;
   height: 72px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #dfe1e6;
 }
