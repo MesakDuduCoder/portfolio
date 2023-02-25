@@ -7,6 +7,10 @@ body {
   width: 375px;
 }
 
+button {
+  background-color: #fff;
+}
+
 header {
   display: flex;
   flex-direction: column;
