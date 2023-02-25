@@ -7,6 +7,10 @@ body {
   width: 375px;
 }
 
+button {
+  background-color: #fff;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -15,6 +19,7 @@ header {
   height: 718px;
   top: 0;
   left: 0;
+  background-color: #fff;
 }
 
 .top-nav {

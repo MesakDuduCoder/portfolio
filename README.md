@@ -37,6 +37,7 @@
 
 - **[Responsive]**
 - **[Modern_design]**
+- **[Button_hover_animations]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,9 +88,8 @@ To run the project just open the index.html file.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Projects_section]**
-- [ ] **[Skills_section]**
 - [ ] **[Contact_section]**
+- [ ] **[buttons_functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

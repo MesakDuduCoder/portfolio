@@ -1,0 +1,245 @@
+
+.works {
+  display: grid;
+  padding: 114px 24px;
+  gap: 88px;
+  position: absolute;
+  grid-template-columns: 2788px;
+  grid-template-rows: 552px 552px 552px 552px;
+  width: 375px;
+  left: 0;
+  top: 718px;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+}
+
+.card-works {
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.work-snapshot {
+  width: 295px;
+  height: 220px;
+  background: url("./images/Portfolio-1.png");
+  border-radius: 8px;
+}
+
+.work-snapshot-2 {
+  width: 295px;
+  height: 220px;
+  background: url("./images/Portfolio-2.png");
+  border-radius: 8px;
+}
+
+.work-snapshot-3 {
+  width: 295px;
+  height: 220px;
+  background: url("./images/Portfolio-3.png");
+  border-radius: 8px;
+}
+
+.work-snapshot-4 {
+  width: 295px;
+  height: 220px;
+  background: url("./images/Portfolio-4.png");
+  border-radius: 8px;
+}
+
+.work-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 295px;
+  height: 288px;
+}
+
+.primary-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 295px;
+  height: 80px;
+}
+
+.project-title {
+  width: 295px;
+  height: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  width: 236px;
+  height: 32px;
+}
+
+.client {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0;
+  width: 55px;
+  height: 32px;
+}
+
+.client p {
+  width: 55px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.role {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0;
+  width: 88px;
+  height: 32px;
+}
+
+.role p {
+  width: 88px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.year {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0;
+  width: 29px;
+  height: 32px;
+}
+
+.year p {
+  width: 29px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.project-details {
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  gap: 8px;
+  width: 203px;
+  height: 24px;
+}
+
+.tags-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: fit-content;
+  height: 24px;
+  background: #ebefff;
+  border-radius: 8px;
+}
+
+.tags-text {
+  width: fit-content;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  text-decoration: none;
+}
+
+.actions {
+  width: 295px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.actions button {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 124px;
+  height: 48px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  text-decoration: none;
+}
+
+.actions button:enabled {
+  border-color: #6070ff;
+}
+
+.actions button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.actions button :active {
+  background-color: #2230d2;
+  color: #fff;
+}
