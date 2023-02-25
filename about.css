@@ -23,7 +23,7 @@
   height: 409px;
 }
 
-.top h1 {
+.top h2 {
   width: 327px;
   height: 101px;
   font-family: 'Poppins', sans-serif;
@@ -36,7 +36,7 @@
   color: #172b4d;
 }
 
-.top h2 {
+.top p {
   width: 327px;
   height: 144px;
   font-family: 'Poppins', sans-serif;
@@ -58,7 +58,14 @@
   height: 48px;
   border: 1px solid gray;
   border-radius: 8px;
-  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
 }
 
 .normal-button:enabled {
@@ -67,39 +74,18 @@
 
 .normal-button:hover {
   background-color: #6070ff;
+  color: #fff;
 }
 
 .normal-button:active {
   background-color: #2230d2;
-}
-
-.normal-button a {
-  width: 182px;
-  height: 48px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
+  color: #fff;
 }
 
 .socials-icons-2 li a {
   align-items: center;
   width: 40px;
   height: 40px;
-}
-
-.normal-button a:hover {
-  color: #fff;
-}
-
-.normal-button a:active {
-  color: #fff;
 }
 
 .social-media {
@@ -164,8 +150,12 @@
   width: 327px;
   height: 72px;
   display: flex;
-  justify-content: space-between;
+  box-sizing: border-box;
   align-items: center;
+  padding-left: 12px;
+}
+
+.skill-list-1 .skill-list-names {
   border-bottom: 1px solid #fff;
 }
 
@@ -205,7 +195,7 @@
   align-items: center;
   padding: 12px;
   gap: 12px;
-  width: 327px;
+  width: 303px;
   height: 248.15px;
   list-style: none;
 }
@@ -236,4 +226,5 @@
 .skill-list-2 {
   width: 327px;
   height: 72px;
+  border-bottom: 1px solid #fff;
 }
