@@ -1,9 +1,9 @@
 
 .works {
-  display: grid;
+  /* display: grid; */
   padding: 114px 24px;
   gap: 88px;
-  position: absolute;
+  /* position: absolute; */
   grid-template-columns: 2788px;
   grid-template-rows: 552px 552px 552px 552px;
   width: 375px;
@@ -17,9 +17,9 @@
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   width: 327px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
   padding: 16px;
   gap: 12px;
   border-radius: 16px;
@@ -55,19 +55,20 @@
 }
 
 .work-block {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start; */
   padding: 0;
   gap: 12px;
   width: 295px;
   height: 288px;
+  /* float: right; */
 }
 
 .primary-text {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start; */
   padding: 0;
   gap: 12px;
   width: 295px;
@@ -86,9 +87,9 @@
 }
 
 .frame {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; */
   padding: 0;
   gap: 12px;
   width: 236px;
@@ -96,9 +97,9 @@
 }
 
 .client {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; */
   padding: 8px 0;
   width: 55px;
   height: 32px;
@@ -116,9 +117,9 @@
 }
 
 .role {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; */
   padding: 8px 0;
   width: 88px;
   height: 32px;
@@ -136,9 +137,9 @@
 }
 
 .year {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; */
   padding: 8px 0;
   width: 29px;
   height: 32px;
@@ -167,9 +168,9 @@
 }
 
 .tags {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; */
   list-style: none;
   padding: 0;
   gap: 8px;
@@ -178,9 +179,9 @@
 }
 
 .tags-list {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; */
   padding: 4px 12px;
   width: fit-content;
   height: 24px;
@@ -202,10 +203,11 @@
 }
 
 .actions {
-  width: 295px;
+  width: 50px;
   height: 72px;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
+  float: right;
 }
 
 .actions button {
