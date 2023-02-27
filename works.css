@@ -168,13 +168,14 @@
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
+  float: right;
   align-items: center;
   list-style: none;
   padding: 0;
   gap: 8px;
-  width: 203px;
+  width: 100px;
   height: 24px;
 }
 
@@ -207,7 +208,8 @@
   height: 72px;
   /* display: flex;
   align-items: center; */
-  float: right;
+  float: left;
+  /* clear: left; */
 }
 
 .actions button {
