@@ -1,0 +1,89 @@
+.contact-section {
+    width: 375px;
+    height: 100vh;
+    top: 4558px;
+    position: absolute;
+    background-color: #6070ff;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/contact_form_shapes-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+
+
+}
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 300px;
+}
+.contact-header h1 {
+    font-family: "poppins", sans-serif;
+    font-style: bold;
+    font-size: 32px;
+    color: #fff;
+    width:200px ;
+    height: 56px ;
+    align-self: center;
+    padding-top: 80px;
+    
+}
+.contact-header p {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ebebff;
+    width: 327px;
+    height: 176px;
+    align-self: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 23px;
+}
+.contact-form {
+    width: 327px;
+    height: 400px;
+    padding-top: 30px;
+}
+.contact-form-list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 10px;
+
+}
+#name {
+    width: 300px;
+    height: 42px;
+    border-radius: 8px;
+    border-color: white;
+
+}
+#mail {
+    width: 300px;
+    height: 42px;
+    border-radius: 8px;
+    border-color: white;
+
+}
+#message {
+    width: 300px;
+    height: 150px;
+    border-radius: 8px;
+    border-color: white;
+
+}
+#button {
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    border-color: white;
+    color: #6070ff;
+    font-family: "poppins", sans-serif;
+    font-style: medium;
+    font-size: 17px;
+
+}

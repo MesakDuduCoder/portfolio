@@ -5,6 +5,8 @@
 
 body {
   width: 375px;
+  height: 100%;
+  display: flex;
 }
 
 button {
