@@ -61,7 +61,7 @@
   padding: 0;
   gap: 12px;
   width: 295px;
-  height: 288px;
+  height: 388px;
 
 }
 
@@ -170,13 +170,13 @@
 .tags {
   /* display: flex;
   flex-direction: row; */
-  float: right;
+  float: left;
   align-items: center;
   list-style: none;
   padding: 0;
   gap: 8px;
   width: 100px;
-  height: 24px;
+  height: 100px;
 }
 
 .tags-list {
@@ -208,8 +208,8 @@
   height: 72px;
   /* display: flex;
   align-items: center; */
-  float: left;
-  /* clear: left; */
+  clear: left;
+ 
 }
 
 .actions button {
