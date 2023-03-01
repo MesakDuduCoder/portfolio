@@ -88,7 +88,6 @@ To run the project just open the index.html file.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Contact_section]**
 - [ ] **[buttons_functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
