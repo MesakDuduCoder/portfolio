@@ -20,7 +20,6 @@ header {
   flex-direction: column;
   width: 100%;
   min-width: 375px;
-  max-width: 767px;
   height: 100vh;
   background-color: #fff;
   border-bottom-left-radius: 80px;
@@ -49,7 +48,7 @@ header {
 
 .nav-bar {
   position: relative;
-  right: 10%;
+  right: 4%;
 }
 
 .socials-icons li a {
@@ -71,7 +70,7 @@ header {
   position: relative;
   width: 60px;
   height: 60px;
-  left: 10%;
+  left: 0;
   top: calc(50% - 40px / 2);
 }
 

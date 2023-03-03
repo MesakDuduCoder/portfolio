@@ -7,10 +7,11 @@
     background-image: url("./images/desktop-bg.png");
     background-repeat: no-repeat;
     background-position: 34.6px 119px;
-    background-size: 98% 80vh;
+    background-size: 100% 80%;
     border-bottom-left-radius: 150px;
     z-index: 1;
     margin-bottom: -12%;
+    padding-bottom: 10px;
   }
 
   #header-btn1 {
@@ -50,7 +51,6 @@
 
   .top-nav .nav-bar {
     display: flex;
-    visibility: visible;
     flex-direction: row;
     align-items: center;
     padding: 0;
@@ -60,8 +60,9 @@
   }
 
   .nav-bar-frame {
-    width: 87px;
+    width: 67px;
     height: 40px;
+    visibility: visible;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -77,19 +78,17 @@
     width: 85%;
     height: 100px;
     top: 0;
-    margin-left: 8%;
-    margin-right: 10%;
+    margin-left: 12%;
+    margin-right: 8%;
     align-items: center;
   }
 
-  .main-background {
-    visibility: hidden;
-  }
-
   .headline {
+    padding: 12% 18%;
     width: 80%;
     height: 80vh;
-    justify-content: center;
+    gap: 5px;
+    justify-content: start;
   }
 
   .headline-text {
@@ -98,11 +97,7 @@
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-    position: absolute;
     width: 90%;
-    height: 30%;
-    left: 20%;
-    top: calc(35% - 268px / 2);
   }
 
   .main-text1 {
@@ -118,10 +113,16 @@
     line-height: 28px;
   }
 
+  .socials-text {
+    padding-top: 20px;
+  }
+
   .socials-icons {
-    position: absolute;
-    left: 20%;
-    top: calc(66% - 268px / 2);
+    padding-inline-start: 0;
+  }
+
+  .socials-icons ul {
+    gap: 12px;
   }
 
   .works {
@@ -271,7 +272,7 @@
 
   .top {
     gap: 24px;
-    width: 90%;
+    width: 40%;
     height: 50vh;
   }
 
@@ -335,7 +336,7 @@
     padding: 0;
     width: 200px;
     height: 40px;
-    padding-inline-start: 0;
+    padding-inline-start: 25px;
   }
 
   .socials-icons-2 li {
@@ -365,7 +366,7 @@
   }
 
   .skill-list {
-    width: 100%;
+    width: 60%;
     height: auto;
     padding-bottom: 5%;
   }
@@ -518,7 +519,7 @@
 
 @media screen and (max-width: 1100px) {
   .socials-icons {
-    top: calc(73% - 268px / 2);
+    top: calc(70% - 268px / 2);
   }
 
   .primary-text .frame {
@@ -588,5 +589,17 @@
 
   .contact-form {
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  body header {
+    padding-bottom: 90px;
+  }
+}
+
+@media screen and (min-height: 965px) {
+  body header {
+    height: 90vh;
   }
 }
