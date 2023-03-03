@@ -21,9 +21,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio-mobile] <a name="about-project"></a>
+# 📖 [Portfolio-modern] <a name="about-project"></a>
 
-**[Portfolio-mobile]** is a responsive portfolio website for mobile platforms built using html and css, this website contains information about my personal inforamtion and my skills and projects.
+**[Portfolio-modern]** is a responsive and cross-platform portfolio website built using html and css, this website contains information about my personal inforamtion and my skills and projects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
