@@ -1,22 +1,33 @@
 
 .works {
   display: grid;
-  padding: 114px 24px;
+  padding: 10% 6%;
   gap: 88px;
-  position: absolute;
   grid-template-columns: 2788px;
   grid-template-rows: 552px 552px 552px 552px;
-  width: 375px;
-  left: 0;
-  top: 718px;
-  box-sizing: border-box;
+  width: 100%;
   background-color: #e5e5e5;
+  box-sizing: border-box;
 }
 
-.card-works {
+.card-works-1 {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
-  width: 327px;
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.card-works-2 {
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  width: min-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,30 +38,8 @@
 }
 
 .work-snapshot {
-  width: 295px;
-  height: 220px;
-  background: url("./images/Portfolio-1.png");
-  border-radius: 8px;
-}
-
-.work-snapshot-2 {
-  width: 295px;
-  height: 220px;
-  background: url("./images/Portfolio-2.png");
-  border-radius: 8px;
-}
-
-.work-snapshot-3 {
-  width: 295px;
-  height: 220px;
-  background: url("./images/Portfolio-3.png");
-  border-radius: 8px;
-}
-
-.work-snapshot-4 {
-  width: 295px;
-  height: 220px;
-  background: url("./images/Portfolio-4.png");
+  width: 80%;
+  height: auto;
   border-radius: 8px;
 }
 
@@ -210,7 +199,7 @@
 
 .actions button {
   box-sizing: border-box;
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
