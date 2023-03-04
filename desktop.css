@@ -70,6 +70,10 @@
     gap: 10px;
   }
 
+  .nav-bar-frame :hover {
+    transform: scale(1.5);
+  }
+
   #header-btn2 {
     visibility: hidden;
   }
@@ -315,6 +319,10 @@
     gap: 8px;
     width: 100%;
     height: auto;
+  }
+
+  .supporting-text :hover {
+    transform: translate(20px);
   }
 
   .supporting-text p {
