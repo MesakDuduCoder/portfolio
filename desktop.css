@@ -320,17 +320,10 @@
     width: 100%;
     height: auto;
   }
-  .supporting-text :hover {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
-    gap: 8px;
-    width: 100%;
-    height: auto;
-    transform: translate(20px);
- }
 
+  .supporting-text :hover {
+    transform: translate(20px);
+  }
 
   .supporting-text p {
     width: 100%;
