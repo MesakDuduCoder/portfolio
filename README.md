@@ -39,6 +39,7 @@
 - **[Responsive]**
 - **[Modern_design]**
 - **[Button_hover_animations]**
+- **[Page viewable using Github Page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
