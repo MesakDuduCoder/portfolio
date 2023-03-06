@@ -11,7 +11,8 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Run project](#run-tests)
+  - [Run project](#run-project)
+  - [Run Github Page](#run-github-page)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -69,6 +70,12 @@ npm install
 ### Run project
 
 To run the project just open the index.html file.
+
+### Run Github Page
+
+Check Out My Portfolio on GitHub Page:
+
+<a href="https://mesakduducoder.github.io/">Click here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

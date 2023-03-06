@@ -70,7 +70,7 @@
     gap: 10px;
   }
 
-  .nav-bar-frame :hover {
+  .nav-bar-frame:hover {
     transform: scale(1.5);
   }
 
@@ -321,7 +321,7 @@
     height: auto;
   }
 
-  .supporting-text :hover {
+  .supporting-text:hover {
     transform: translate(20px);
   }
 
