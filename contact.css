@@ -22,7 +22,7 @@
   align-self: center;
 }
 
-.contact-header h6 {
+.contact-header h2 {
   font-family: "Poppins", sans-serif;
   font-style: bold;
   font-weight: 700;
@@ -140,6 +140,7 @@
   font-size: 17px;
   margin-bottom: 45px;
   align-items: center;
+  border: 1px solid #6070ff;
 }
 
 #button:enabled {
@@ -148,6 +149,7 @@
 
 #button:hover {
   background-color: #6070ff;
+  border-color: #fff;
   color: #fff;
 }
 
