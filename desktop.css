@@ -250,12 +250,13 @@
   }
 
   .actions {
-    width: 100%;
+    width: fit-content;
     height: auto;
     align-items: flex-start;
   }
 
   .actions button {
+    width: fit-content;
     gap: 10px;
     left: 0;
     top: 16px;
@@ -290,7 +291,7 @@
     height: auto;
   }
 
-  .social-text h3 {
+  .social-text h2 {
     width: 100%;
     height: auto;
     color: #091e42;
@@ -397,7 +398,7 @@
     padding-bottom: 5%;
   }
 
-  .skill-list-names h4 {
+  .skill-list-names h3 {
     width: 100%;
     color: #344563;
   }
@@ -416,7 +417,7 @@
     height: 100px;
   }
 
-  .languages-list li h5 {
+  .languages-list li h4 {
     width: 100%;
   }
 
@@ -444,7 +445,7 @@
     height: auto;
   }
 
-  .contact-header h6 {
+  .contact-header h2 {
     width: 100%;
     padding-left: 0;
     justify-content: center;
@@ -516,6 +517,9 @@
     margin-bottom: 0;
     padding: 12px 16px;
     box-sizing: border-box;
+    width: fit-content;
+    display: flex;
+    align-items: center;
   }
 }
 

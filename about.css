@@ -27,7 +27,7 @@
   height: auto;
 }
 
-.social-text h3 {
+.social-text h2 {
   width: 100%;
   height: auto;
   font-family: 'Poppins', sans-serif;
@@ -79,17 +79,10 @@
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 162px;
+  width: fit-content;
   height: 48px;
   border: 1px solid gray;
   border-radius: 8px;
-}
-
-.normal-button p {
-  width: 138px;
-  height: 24px;
-  display: flex;
-  align-items: center;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -252,7 +245,7 @@
 }
 
 @media screen and (max-width: 560px) {
-  .social-text h3 {
+  .social-text h2 {
     width: 10%;
   }
 }
