@@ -1,6 +1,7 @@
 let btn = document.querySelector("#header-btn2");
 let btn2 = document.querySelector("#close-menu");
 
+
 function display() {
  document.getElementById("header-top").style.filter = "blur(8px)";
  document.getElementById("menu").style.visibility = "visible";
@@ -15,3 +16,4 @@ function closeDisplay() {
 
 btn.addEventListener("click", display);
 btn2.addEventListener("click", closeDisplay);
+
