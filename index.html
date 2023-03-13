@@ -14,10 +14,22 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="menu.css">
+    <script defer src="script.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
+
+    <div id="menu">
+        <div><button id="close-menu">X</button></div>
+        <nav class="menu-links">
+            <div class="menu-frame"><a href="#portfolio">Portfolio</a></div>
+            <div class="menu-frame"><a href="#about">About</a></div>
+            <div class="menu-frame"><a href="#contact">Contact</a></div>
+        </nav>
+    </div>
+
+    <header id="header-top">
         <section class="top-nav">
             <button id="header-btn1">
                 <a href="">
@@ -320,5 +332,6 @@
             </form>
         </div>
     </section>
+    
 </body>
 </html>
