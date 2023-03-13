@@ -121,13 +121,13 @@ header {
   gap: 12px;
   position: absolute;
   width: 92%;
-  height: fit-content;
+  height: auto;
   top: 20%;
 }
 
 .headline-text {
   width: 92%;
-  height: fit-content;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -165,7 +165,7 @@ header {
   padding: 0;
   gap: 16px;
   width: 50%;
-  height: fit-content;
+  height: auto;
 }
 
 .socials-text .supporting-text {
@@ -175,7 +175,7 @@ header {
   padding: 0;
   gap: 8px;
   width: 50%;
-  height: fit-content;
+  height: auto;
 }
 
 .socials-text .supporting-text p {
@@ -186,12 +186,12 @@ header {
   line-height: 24px;
   color: #7f8cff;
   width: 50%;
-  height: fit-content;
+  height: auto;
 }
 
 .socials-icons {
   width: 60%;
-  height: fit-content;
+  height: auto;
   display: flex;
   align-items: center;
   padding-left: 4%;

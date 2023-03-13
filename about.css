@@ -112,7 +112,7 @@
   flex-direction: column;
   padding: 0;
   width: 100%;
-  height: fit-content;
+  height: auto;
   list-style: none;
 }
 
