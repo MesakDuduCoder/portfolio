@@ -7,8 +7,9 @@
   flex-direction: column;
   background-image: url(images/mobile-bg-2.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  padding: 10% 10%;
+  background-size: contain;
+  background-position: right;
+  padding: 15% 10% 30%;
   box-sizing: border-box;
   border-top-left-radius: 80px;
 }
