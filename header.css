@@ -25,8 +25,8 @@ header {
   border-bottom-left-radius: 80px;
   background-image: url("./images/mobile-bg-1.png");
   background-repeat: no-repeat;
-  background-size: 100% 80%;
-  background-position: 0 80%;
+  background-size: 100% 100vh;
+  background-position: 0 90%;
   z-index: 0;
 }
 
