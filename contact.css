@@ -7,8 +7,9 @@
   flex-direction: column;
   background-image: url(images/mobile-bg-2.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  padding: 10% 10%;
+  background-size: contain;
+  background-position: right;
+  padding: 15% 10% 30%;
   box-sizing: border-box;
   border-top-left-radius: 80px;
 }
@@ -24,7 +25,7 @@
 
 .contact-header h2 {
   font-family: "Poppins", sans-serif;
-  font-style: bold;
+  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   color: #fff;
@@ -61,7 +62,7 @@
   flex-direction: column;
   gap: 18px;
   padding-inline-start: 0;
-  height: fit-content;
+  height: auto;
 }
 
 .input-type-a {
@@ -135,7 +136,7 @@
   border-color: white;
   color: #6070ff;
   font-family: "Poppins", sans-serif;
-  font-style: medium;
+  font-style: normal;
   font-weight: 400;
   font-size: 17px;
   margin-bottom: 45px;

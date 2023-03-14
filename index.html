@@ -14,10 +14,31 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="menu.css">
+    <script defer src="script.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
+
+    <div id="menu">
+    </div>
+
+    <div id="menu-items">
+        <div class="close-btn"><button id="close-menu"><img src="images/Cancel.svg" alt="cancel-button"></button></div>
+        <nav class="menu-items-child">
+            <div class="menu-frame"><a onclick="closeDisplay()" href="#portfolio">
+                    <p>Portfolio</p>
+                </a></div>
+            <div class="menu-frame"><a onclick="closeDisplay()" href="#about">
+                    <p>About</p>
+                </a></div>
+            <div class="menu-frame"><a onclick="closeDisplay()" href="#contact">
+                    <p>Contact</p>
+                </a></div>
+        </nav>
+    </div>
+
+    <header id="header-top">
         <section class="top-nav">
             <button id="header-btn1">
                 <a href="">
@@ -320,5 +341,6 @@
             </form>
         </div>
     </section>
+    
 </body>
 </html>

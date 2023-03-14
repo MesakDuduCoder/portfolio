@@ -56,7 +56,7 @@
     padding: 0;
     gap: 8px;
     width: fit-content;
-    height: fit-content;
+    height: auto;
   }
 
   .nav-bar-frame {
