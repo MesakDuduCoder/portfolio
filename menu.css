@@ -23,7 +23,7 @@
   max-width: 768px;
   position: fixed;
   padding: 0 12px;
-  padding-top: 100px;
+  padding-top: 50px;
   top: 0;
   left: 0;
   z-index: 99;
@@ -36,7 +36,7 @@
   padding: 8px;
   float: right;
   border-radius: 8px;
-  margin-right: 45px;
+  margin-right: 10px;
   align-items: start;
 }
 

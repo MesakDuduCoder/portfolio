@@ -71,6 +71,7 @@ projects.push(project3);
 projects.push(project4);
 
 // Create html elements using JavaScript
+const projectBg = document.createElement('div');
 const seeProject = document.createElement('div');
 const projectCard = document.createElement('div');
 const projectCardHead = document.createElement('div');
@@ -96,6 +97,7 @@ const projectButtonLogo2 = document.createElement('img');
 // Give class and id to created elements
 seeProject.id = 'see-project';
 projectCard.classList.add('project-card');
+projectBg.classList.add('project-bg');
 projectCardHead.classList.add('project-card-head');
 projectImage.classList.add('project-card-image');
 projectClose.id = 'project-close';
@@ -109,6 +111,7 @@ projectButtonSource.id = 'project-button2';
 // Set values for some elements
 projectButtonText1.innerHTML = 'See live';
 projectButtonText2.innerHTML = 'See Source';
+projectCloseImg.src = './icons/closeicon.png';
 
 // Arrange child of the main project-card
 projectCardHead.appendChild(projectName);
@@ -140,6 +143,7 @@ seeProject.appendChild(projectCard);
 function closeProjectBtn() {
   document.getElementById('header-top').style.filter = 'blur(0)';
   document.getElementById('portfolio').style.filter = 'blur(0)';
+  document.body.removeChild(projectBg);
   document.body.removeChild(seeProject);
   document.body.style.overflow = 'scroll';
 }
@@ -149,7 +153,6 @@ const mediaQuery = window.matchMedia('(max-width: 768px)');
 
 // Dunction to open project
 function openProject(i) {
-  projectCloseImg.src = './icons/closeicon.png';
   document.getElementById('header-top').style.filter = 'blur(8px)';
   document.getElementById('portfolio').style.filter = 'blur(8px)';
   projectName.innerHTML = projects[i].name;
@@ -173,6 +176,7 @@ function openProject(i) {
   projectTechItem3.innerHTML = tech3;
   projectButtonLink.href = liveLink2;
   projectButtonSource.href = sourceLink2;
+  document.body.appendChild(projectBg);
   document.body.appendChild(seeProject);
   document.body.style.overflow = 'hidden';
   const closeProject = document.getElementById('project-close');
