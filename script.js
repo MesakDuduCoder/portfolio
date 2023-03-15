@@ -109,7 +109,6 @@ projectButtonSource.id = 'project-button2';
 // Set values for some elements
 projectButtonText1.innerHTML = 'See live';
 projectButtonText2.innerHTML = 'See Source';
-projectCloseImg.src = './icons/closeicon.png';
 
 // Arrange child of the main project-card
 projectCardHead.appendChild(projectName);
@@ -150,6 +149,7 @@ const mediaQuery = window.matchMedia('(max-width: 768px)');
 
 // Dunction to open project
 function openProject(i) {
+  projectCloseImg.src = './icons/closeicon.png';
   document.getElementById('header-top').style.filter = 'blur(8px)';
   document.getElementById('portfolio').style.filter = 'blur(8px)';
   projectName.innerHTML = projects[i].name;
