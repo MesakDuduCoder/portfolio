@@ -231,3 +231,45 @@ openProject1.addEventListener('click', openProject.bind(null, '0'), false);
 openProject2.addEventListener('click', openProject.bind(null, '1'), false);
 openProject3.addEventListener('click', openProject.bind(null, '2'), false);
 openProject4.addEventListener('click', openProject.bind(null, '3'), false);
+
+// Validate form
+
+const emailEl = document.querySelector("#mail");
+console.log(emailEl)
+const form = document.querySelector(".contact-form");
+form.addEventListener("submit", function (e) {
+  // prevent the form from submitting
+  e.preventDefault();
+    let isEmailValid = checkEmail();
+    let isFormValid = isEmailValid;
+
+        if (isFormValid) {
+          form.submit()
+        }
+});
+
+const isRequired = (value) => (value === "" ? false : true);
+
+const isEmailValid = (email) => {
+  const re =
+    /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+ 
+    return re.test(email);
+  
+  
+};
+
+console.log(isEmailValid)
+
+const showError = (input, message) => {
+   const error = document.querySelector("#formMessage");
+  error.textContent = message;
+};
+
+const showSuccess = (input) => {
+
+  // hide the error message
+  const error = document.querySelector("#formMessage");
+  error.textContent = "";
+};
+
