@@ -142,6 +142,7 @@
   margin-bottom: 45px;
   align-items: center;
   border: 1px solid #6070ff;
+  margin-top: -30px;
 }
 
 #button:enabled {
@@ -157,4 +158,18 @@
 #button:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+#formMessage {
+  color: red;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 327px;
+  height: 25px;
+  border-radius: 8px;
+  padding-left: 10px;
 }

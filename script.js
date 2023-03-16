@@ -273,3 +273,16 @@ const showSuccess = (input) => {
   error.textContent = "";
 };
 
+const checkEmail = () => {
+  let valid = false;
+  const email = emailEl.value.trim();
+  if (!isRequired(email)) {
+    showError(emailEl, "Email cannot be blank.");
+  } else if (!isEmailValid(email)) {
+    showError(emailEl, "Email should be in lowercase.");
+  } else {
+    showSuccess(emailEl);
+    valid = true;
+  }
+  return valid;
+};
