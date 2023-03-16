@@ -234,55 +234,52 @@ openProject4.addEventListener('click', openProject.bind(null, '3'), false);
 
 // Validate form
 
-const emailEl = document.querySelector("#mail");
-console.log(emailEl)
-const form = document.querySelector(".contact-form");
-form.addEventListener("submit", function (e) {
-  // prevent the form from submitting
-  e.preventDefault();
-    let isEmailValid = checkEmail();
-    let isFormValid = isEmailValid;
+const emailEl = document.querySelector('#mail');
+const messageEl = document.querySelector('#formMessage');
+const form = document.querySelector('.contact-form');
 
-        if (isFormValid) {
-          form.submit()
-        }
-});
-
-const isRequired = (value) => (value === "" ? false : true);
+const isRequired = (value) => value !== '';
 
 const isEmailValid = (email) => {
-  const re =
-    /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
- 
-    return re.test(email);
-  
-  
+  const re = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+
+  return re.test(email);
 };
 
-console.log(isEmailValid)
-
 const showError = (input, message) => {
-   const error = document.querySelector("#formMessage");
+  const error = document.querySelector('#formMessage');
   error.textContent = message;
 };
 
-const showSuccess = (input) => {
-
+const showSuccess = () => {
   // hide the error message
-  const error = document.querySelector("#formMessage");
-  error.textContent = "";
+  const error = document.querySelector('#formMessage');
+  error.textContent = '';
 };
-
 const checkEmail = () => {
   let valid = false;
   const email = emailEl.value.trim();
   if (!isRequired(email)) {
-    showError(emailEl, "Email cannot be blank.");
+    showError(emailEl, 'Email cannot be blank.');
   } else if (!isEmailValid(email)) {
-    showError(emailEl, "Email should be in lowercase.");
+    showError(emailEl, 'Email should be in lowercase.');
   } else {
     showSuccess(emailEl);
     valid = true;
   }
   return valid;
 };
+
+form.addEventListener('submit', (e) => {
+  // prevent the form from submitting
+  e.preventDefault();
+  const isEmailValid = checkEmail();
+  const isFormValid = isEmailValid;
+
+  if (isFormValid) {
+    messageEl.style.backgroundColor = '#6070ff';
+    form.submit();
+  } else {
+    messageEl.style.backgroundColor = '#fff';
+  }
+});
