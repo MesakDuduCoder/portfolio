@@ -231,3 +231,55 @@ openProject1.addEventListener('click', openProject.bind(null, '0'), false);
 openProject2.addEventListener('click', openProject.bind(null, '1'), false);
 openProject3.addEventListener('click', openProject.bind(null, '2'), false);
 openProject4.addEventListener('click', openProject.bind(null, '3'), false);
+
+// Validate form
+
+const emailEl = document.querySelector('#mail');
+const messageEl = document.querySelector('#formMessage');
+const form = document.querySelector('.contact-form');
+
+const isRequired = (value) => value !== '';
+
+const isEmailValid = (email) => {
+  const re = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+
+  return re.test(email);
+};
+
+const showError = (input, message) => {
+  const error = document.querySelector('#formMessage');
+  error.textContent = message;
+};
+
+const showSuccess = () => {
+  // hide the error message
+  const error = document.querySelector('#formMessage');
+  error.textContent = '';
+};
+const checkEmail = () => {
+  let valid = false;
+  const email = emailEl.value.trim();
+  if (!isRequired(email)) {
+    showError(emailEl, 'Email cannot be blank.');
+  } else if (!isEmailValid(email)) {
+    showError(emailEl, 'Email should be in lowercase.');
+  } else {
+    showSuccess(emailEl);
+    valid = true;
+  }
+  return valid;
+};
+
+form.addEventListener('submit', (e) => {
+  // prevent the form from submitting
+  e.preventDefault();
+  const isEmailValid = checkEmail();
+  const isFormValid = isEmailValid;
+
+  if (isFormValid) {
+    messageEl.style.backgroundColor = '#6070ff';
+    form.submit();
+  } else {
+    messageEl.style.backgroundColor = '#fff';
+  }
+});
