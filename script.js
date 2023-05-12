@@ -21,15 +21,21 @@ btn2.addEventListener('click', closeDisplay);
 
 // popup section
 const project1 = {
-  name: 'Tonic',
-  titleHead: ['CANOPY', 'Back&nbsp;End&nbsp;Dev', '2015'],
+  name: "To DO List",
+  titleHead: ["CANOPY", "Back&nbsp;End&nbsp;Dev", "2015"],
   description:
-    'A daily selection of privately personalized reads; no accounts <br> or sign-ups required.',
-  image1: './images/Portfolio-1.png',
-  image2: './images/Snapshoot Portfolio1.png',
-  technologies: ['html', 'css', 'javascript'],
-  liveLink: ['See live', './icons/LiveBtn.png'],
-  sourceLink: ['See source', './icons/GithubBtn.png'],
+    "A to do list website where you can add list items delete them and edit them and also check and clear completed tasks",
+  image1: "./images/project1mobile.png",
+  image2: "./images/project1desktop.png",
+  technologies: ["html", "css", "javascript"],
+  liveLink: [
+    "https://mesakduducoder.github.io/MesakDuduCoder.github.io-JS-To-Do-List/dist/",
+    "./icons/LiveBtn.png",
+  ],
+  sourceLink: [
+    "https://github.com/MesakDuduCoder/JS-To-Do-List3",
+    "./icons/GithubBtn.png",
+  ],
 };
 
 const project2 = {
