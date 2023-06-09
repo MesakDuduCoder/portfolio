@@ -76,7 +76,7 @@ To run the project just open the index.html file.
 
 Check Out My Portfolio on GitHub Page:
 
-<a href="https://mesakduducoder.github.io/">Click here</a>
+<a href="https://mesakduducoder.github.io/](https://mesakduducoder.github.io/Portfolio-mobile/">Click here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
