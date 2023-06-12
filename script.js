@@ -303,9 +303,11 @@ function updateFormData() {
   };
   localStorage.setItem('formData', JSON.stringify(formData));
 }
+
 [nameInput, emailInput, messageInput].forEach((input) => {
   input.addEventListener('input', updateFormData);
 });
+
 const savedFormData = JSON.parse(localStorage.getItem('formData'));
 
 if (savedFormData) {
