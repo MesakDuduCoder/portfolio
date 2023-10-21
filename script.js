@@ -25,8 +25,8 @@ const project1 = {
   titleHead: ["CANOPY", "Back&nbsp;End&nbsp;Dev", "2015"],
   description:
     "A to do list website where you can add list items delete them and edit them and also check and clear completed tasks",
-  image1: "./images/project1mobile.png",
-  image2: "./images/project1desktop.png",
+  image1: "./images/mobile-1.png",
+  image2: "./images/desktop-1.png",
   technologies: ["html", "css", "javascript"],
   liveLink: [
     "https://mesakduducoder.github.io/MesakDuduCoder.github.io-JS-To-Do-List/dist/",
@@ -39,16 +39,20 @@ const project1 = {
 };
 
 const project2 = {
-  name: 'Multi-Post&nbsp;Stories',
-  titleHead: ['FACEBOOK', 'Full&nbsp;Stack&nbsp;Dev', '2015'],
+  name: "Cash App",
+  titleHead: ["Finance", "Full&nbsp;Stack&nbsp;Dev", "2023"],
   description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  image1: './images/Portfolio-2.png',
-  image2: './images/Snapshoot Portfolio2.png',
-  technologies: ['html', 'css', 'javascript'],
-  liveLink: ['See live', './icons/LiveBtn.png'],
-  sourceLink: ['See source', './icons/GithubBtn.png'],
+    "Cash app is a budgeting app that helps you keep track of your expenses your budget, you can categorize your expenses and see a list of payments made to that category",
+  image1: "./images/mobile-2.png",
+  image2: "./images/desktop-2.png",
+  technologies: ["html", "css", "javascript", "ruby", "rails", "postgresql"],
+  liveLink: ["https://my-budget-app-t75w.onrender.com/", "./icons/LiveBtn.png"],
+  sourceLink: [
+    "https://github.com/MesakDuduCoder/budget_app",
+    "./icons/GithubBtn.png",
+  ],
 };
+
 const project3 = {
   name: 'Tonic',
   titleHead: ['FACEBOOK', 'Full&nbsp;Stack&nbsp;Dev', '2015'],
