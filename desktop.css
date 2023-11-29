@@ -1,11 +1,6 @@
 @media screen and (min-width: 768px) {
-  body header {
-    width: 100%;
-    height: 100vh;
-    left: 0;
-    top: 1px;
+  #header-top {
     background-image: url("./images/desktop-bg.png");
-    background-repeat: no-repeat;
     background-position: 34.6px 119px;
     background-size: 100% 80%;
     border-bottom-left-radius: 150px;
@@ -13,17 +8,14 @@
     margin-bottom: -12%;
     padding-bottom: 10px;
   }
-
-  #header-btn1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 2px;
-    width: 60px;
-    height: 50px;
+  
+  .top-nav {
+    width: 100%;
+    height: 10vh;
     top: 0;
+    align-items: center;
   }
-
+  
   .nav-bar-frame a {
     width: 63px;
     height: 20px;
@@ -38,31 +30,17 @@
     text-align: center;
     color: #344563;
   }
-
-  .top-nav button a {
-    width: 60px;
-    height: 50px;
-  }
-
-  .top-nav button a img {
-    width: 60px;
-    height: 50px;
-  }
-
+  
   .top-nav .nav-bar {
     display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0;
     gap: 8px;
-    width: fit-content;
-    height: auto;
   }
 
   .nav-bar-frame {
     width: 67px;
     height: 40px;
-    visibility: visible;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -75,14 +53,7 @@
   }
 
   #header-btn2 {
-    visibility: hidden;
-  }
-
-  .top-nav {
-    width: 100%;
-    height: 10vh;
-    top: 0;
-    align-items: center;
+    display: none;
   }
 
   .headline {
@@ -141,27 +112,20 @@
     z-index: 0;
   }
 
-  .card-works-1 {
-    width: 100%;
-    height: 50%;
+  .project-card {
     flex-direction: row;
     gap: 22px;
     padding: 24px;
     margin-bottom: 5%;
   }
 
-  .card-works-2 {
-    width: 100%;
-    height: 50%;
+  .project-card:nth-child(even){
     flex-direction: row-reverse;
-    gap: 22px;
-    padding: 24px;
-    margin-bottom: 5%;
   }
+
 
   .work-snapshot {
     width: 50%;
-    height: auto;
     border-radius: 8px;
   }
 
@@ -299,7 +263,6 @@
   .socials-media {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 0;
     gap: 16px;
     width: 100%;
@@ -314,10 +277,6 @@
     gap: 8px;
     width: 100%;
     height: auto;
-  }
-
-  .supporting-text:hover {
-    transform: translate(20px);
   }
 
   .supporting-text p {
@@ -383,6 +342,10 @@
   .skill-list-names h3 {
     width: 100%;
     color: #344563;
+  }
+
+  .languages-list {
+    justify-content: start;
   }
 
   .languages-list li {
@@ -500,98 +463,5 @@
     width: fit-content;
     display: flex;
     align-items: center;
-  }
-}
-
-@media screen and (max-width: 1366px) {
-  .socials-icons {
-    top: calc(72% - 268px / 2);
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .socials-icons {
-    top: calc(70% - 268px / 2);
-  }
-
-  .primary-text .frame {
-    width: 100%;
-    height: 20px;
-  }
-
-  .works {
-    gap: 5px;
-  }
-
-  .work-block {
-    gap: 6px;
-  }
-
-  .client p {
-    font-weight: 400;
-    font-size: 10px;
-  }
-
-  .role p {
-    font-weight: 400;
-    font-size: 10px;
-  }
-
-  .year p {
-    font-weight: 400;
-    font-size: 10px;
-  }
-
-  .primary-text {
-    gap: 5px;
-  }
-
-  .project-details {
-    font-size: 12px;
-    line-height: 20px;
-  }
-
-  .project-title {
-    font-size: 27px;
-    line-height: 38px;
-  }
-
-  .actions {
-    width: 200px;
-    height: 52px;
-  }
-
-  .actions button {
-    width: 118px;
-    height: 40px;
-    padding: 8px;
-  }
-}
-
-@media screen and (max-width: 816px) {
-  .socials-icons {
-    top: calc(77% - 268px / 2);
-  }
-}
-
-@media screen and (max-width: 780px) {
-  .socials-icons {
-    top: calc(77% - 268px / 2);
-  }
-
-  .contact-form {
-    margin-top: 50px;
-  }
-}
-
-@media screen and (max-height: 800px) {
-  body header {
-    padding-bottom: 90px;
-  }
-}
-
-@media screen and (min-height: 965px) {
-  body header {
-    height: 90vh;
   }
 }

@@ -180,13 +180,3 @@
   height: 24px;
 }
 
-@media screen and (max-width: 560px) {
-  .social-text h2 {
-    width: 10%;
-  }
-
-  .languages-list li {
-    width: 20%;
-    flex-direction: column;
-  }
-}

@@ -1,4 +1,3 @@
-
 .works {
   display: grid;
   padding: 25% 10% 8%;
@@ -9,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.card-works-1 {
+.project-card {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   width: 100%;
@@ -24,23 +23,10 @@
   background: #fff;
 }
 
-.card-works-2 {
-  border: 1px solid #dfe1e6;
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  margin-bottom: 90px;
-  gap: 12px;
-  border-radius: 16px;
-  background: #fff;
-}
-
 .work-snapshot {
   width: 80%;
-  height: auto;
+  height: 300px;
+  object-fit: contain;
   border-radius: 8px;
 }
 
@@ -197,14 +183,15 @@
   height: 72px;
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
-.actions button {
+.actions a {
   box-sizing: border-box;
   position: relative;
   display: flex;
-  flex-direction: row;
   align-items: center;
+  gap: 10px;
   width: 124px;
   height: 48px;
   border: 1px solid gray;
@@ -221,16 +208,16 @@
   text-decoration: none;
 }
 
-.actions button:enabled {
+.actions a:enabled {
   border-color: #6070ff;
 }
 
-.actions button:hover {
+.actions a:hover {
   background-color: #6070ff;
   color: #fff;
 }
 
-.actions button :active {
+.actions a :active {
   background-color: #2230d2;
   color: #fff;
 }
