@@ -403,12 +403,6 @@
     color: #344563;
   }
 
-  .languages-list {
-    flex-direction: row;
-    width: 80%;
-    height: auto;
-  }
-
   .languages-list li {
     align-items: start;
     flex-direction: column;
@@ -419,6 +413,11 @@
 
   .languages-list li h4 {
     width: 100%;
+  }
+
+  .languages-list li img {
+    width: 80px;
+    height: 80px;
   }
 
   .contact-section {
