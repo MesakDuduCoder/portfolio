@@ -79,20 +79,18 @@
   }
 
   .top-nav {
-    width: 85%;
-    height: 100px;
+    width: 100%;
+    height: 10vh;
     top: 0;
-    margin-left: 12%;
-    margin-right: 8%;
     align-items: center;
   }
 
   .headline {
-    padding: 12% 18%;
-    width: 80%;
+    width: 100%;
     height: 80vh;
     gap: 5px;
-    justify-content: start;
+    justify-content: center;
+    align-items: center;
   }
 
   .headline-text {
@@ -101,7 +99,7 @@
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-    width: 90%;
+    width: 60%;
   }
 
   .main-text1 {
@@ -123,6 +121,7 @@
 
   .socials-icons {
     padding-inline-start: 0;
+    width: 60%;
   }
 
   .socials-icons ul {
@@ -266,9 +265,11 @@
     flex-direction: row;
     width: 100%;
     height: 100%;
+    gap: 10px;
     padding-left: 8%;
-    padding-right: 8%;
-    padding-bottom: 20%;
+    padding-right: 2%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     box-sizing: border-box;
     border-top-right-radius: 150px;
     margin-top: -12%;
@@ -278,22 +279,15 @@
   .top {
     gap: 24px;
     width: 40%;
-    height: 50vh;
   }
 
   .social-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 0;
     gap: 12px;
-    width: 80%;
-    height: auto;
   }
 
-  .social-text h2 {
+  .about-heading {
     width: 100%;
-    height: auto;
     color: #091e42;
   }
 
@@ -380,18 +374,6 @@
     padding-bottom: 5%;
   }
 
-  .skill-list-1 {
-    width: 100%;
-    height: auto;
-    padding-bottom: 5%;
-  }
-
-  .skill-list-2 {
-    width: 100%;
-    height: auto;
-    border-bottom: 1px solid #dfe1e6;
-  }
-
   .skill-list-names {
     width: 100%;
     height: auto;
@@ -407,8 +389,7 @@
     align-items: start;
     flex-direction: column;
     padding: 12px;
-    width: 20%;
-    height: 100px;
+    width: 16%;
   }
 
   .languages-list li h4 {
