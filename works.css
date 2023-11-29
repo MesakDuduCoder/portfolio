@@ -165,6 +165,10 @@
   border-radius: 8px;
 }
 
+.tags-list:hover {
+  scale: 1.6;
+}
+
 .tags-text {
   width: fit-content;
   height: 16px;

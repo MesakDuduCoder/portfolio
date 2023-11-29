@@ -140,6 +140,11 @@
   gap: 16px;
 }
 
+.languages-list li:hover {
+  scale: 1.2;
+  background: #303131;
+} 
+
 .languages-list li h4 {
   height: 24px;
   font-family: 'Poppins', sans-serif;
@@ -152,10 +157,13 @@
   color: #253858;
 }
 
+.languages-list li:hover h4 {
+  color: #fff;
+}
+
 .languages-list li img {
   height: 48px;
   width: 48px;
-  border: 1px solid #f7f7f9;
   object-fit: contain;
 }
 
@@ -167,6 +175,10 @@
   list-style: none;
   padding-inline-start: 0;
   gap: 10px;
+}
+
+.socials-icons-2 li:hover {
+  scale: 2;
 }
 
 .socials-icons-2 li a {

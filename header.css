@@ -155,6 +155,10 @@ button {
   padding-inline-start: 0;
 }
 
+.socials-icons ul li:hover {
+  scale: 2;
+}
+
 .socials-icons li a {
   align-items: center;
   width: 20px;
