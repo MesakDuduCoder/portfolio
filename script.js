@@ -21,19 +21,19 @@ btn2.addEventListener('click', closeDisplay);
 
 // popup section
 const project1 = {
-  name: "To DO List",
-  titleHead: ["CANOPY", "Back&nbsp;End&nbsp;Dev", "2015"],
+  name: "Currency app",
+  titleHead: ["React", "API", "2023"],
   description:
-    "A to do list website where you can add list items delete them and edit them and also check and clear completed tasks",
-  image1: "./images/mobile-1.png",
-  image2: "./images/desktop-1.png",
+    "This is a currency exchange site where you can view conversion rates of different currencies. It is a React app which gets data from API.",
+  image1: "./images/CE-1.png",
+  image2: "./images/CE-1.png",
   technologies: ["html", "css", "javascript"],
   liveLink: [
-    "https://mesakduducoder.github.io/MesakDuduCoder.github.io-JS-To-Do-List/dist/",
+    "https://currency-exchange-1gpu.onrender.com",
     "./icons/LiveBtn.png",
   ],
   sourceLink: [
-    "https://github.com/MesakDuduCoder/JS-To-Do-List3",
+    "https://github.com/MesakDuduCoder/currency-exchange",
     "./icons/GithubBtn.png",
   ],
 };
@@ -43,10 +43,10 @@ const project2 = {
   titleHead: ["Finance", "Full&nbsp;Stack&nbsp;Dev", "2023"],
   description:
     "Cash app is a budgeting app that helps you keep track of your expenses your budget, you can categorize your expenses and see a list of payments made to that category",
-  image1: "./images/mobile-2.png",
-  image2: "./images/desktop-2.png",
+  image1: "./images/BA-2.png",
+  image2: "./images/BA-2.png",
   technologies: ["html", "css", "javascript", "ruby", "rails", "postgresql"],
-  liveLink: ["https://my-budget-app-t75w.onrender.com/", "./icons/LiveBtn.png"],
+  liveLink: ["https://budget-app-917z.onrender.com", "./icons/LiveBtn.png"],
   sourceLink: [
     "https://github.com/MesakDuduCoder/budget_app",
     "./icons/GithubBtn.png",
@@ -54,27 +54,27 @@ const project2 = {
 };
 
 const project3 = {
-  name: 'Tonic',
-  titleHead: ['FACEBOOK', 'Full&nbsp;Stack&nbsp;Dev', '2015'],
+  name: 'Zomato&nbsp;Clone',
+  titleHead: ['React', 'Full&nbsp;Stack&nbsp;Dev', '2022'],
   description:
-    'A daily selection of privately personalized reads; no accounts <br> or sign-ups required.',
-  image1: './images/Portfolio-3.png',
-  image2: './images/Snapshoot Portfolio3.png',
-  technologies: ['html', 'css', 'javascript'],
-  liveLink: ['See live', './icons/LiveBtn.png'],
-  sourceLink: ['See source', './icons/GithubBtn.png'],
+    'Zomato clone is a website in which you can see different type of restaurants and their menus built using the Zomato api, ReactJs, NodeJs, ExpressJs, MongoDB and CSS',
+  image1: './images/ZC-1.png',
+  image2: './images/ZC-1.png',
+  technologies: ['React', 'NodeJS/ExpressJS', 'MongoDB'],
+  liveLink: ['https://stunning-meringue-0eb6da.netlify.app/', './icons/LiveBtn.png'],
+  sourceLink: ['https://github.com/MesakDuduCoder/zomato-clone', './icons/GithubBtn.png'],
 };
 
 const project4 = {
-  name: 'Multi-Post&nbsp;Stories',
-  titleHead: ['Uber', 'Lead&nbsp;Developer', '2015'],
+  name: 'Space&nbsp;Travellers',
+  titleHead: ['React', 'Front&nbsp;End&nbsp;Developer', '2023'],
   description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  image1: './images/Portfolio-4.png',
-  image2: './images/Snapshoot Portfolio4.png',
-  technologies: ['html', 'css', 'javascript'],
-  liveLink: ['See live', './icons/LiveBtn.png'],
-  sourceLink: ['See source', './icons/GithubBtn.png'],
+    "Space travellers is a website in which you can see different type of rockets and missions from SpaceX company built using the SpaceX api, ReactJs, Redux, JavaScript and CSS",
+  image1: './images/ST-1.png',
+  image2: './images/ST-1.png',
+  technologies: ['React', 'Redux', 'API'],
+  liveLink: ['https://space-travellers-ebui.onrender.com/', './icons/LiveBtn.png'],
+  sourceLink: ['https://github.com/MesakDuduCoder/space-traveller-hub', './icons/GithubBtn.png'],
 };
 
 // Store project objects in array

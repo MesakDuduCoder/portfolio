@@ -2,9 +2,8 @@
 .about-myself {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  padding: 45% 5% 25%;
-  gap: 24px;
+  padding: 20px 20px;
+  gap: 50px;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
@@ -15,35 +14,32 @@
 .top {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0;
   gap: 12px;
   width: 100%;
-  height: auto;
 }
 
 .social-text {
   width: 100%;
-  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.social-text h2 {
+.about-heading{
   width: 100%;
-  height: auto;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
-  align-items: center;
   color: #172b4d;
   padding-bottom: 5%;
 }
 
 .social-text p {
-  width: 100%;
-  height: auto;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -56,11 +52,10 @@
   display: flex;
   margin: 10px 0;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0;
   gap: 16px;
   width: 50%;
-  height: auto;
 }
 
 .supporting-text p {
@@ -75,11 +70,11 @@
 .normal-button {
   box-sizing: border-box;
   display: flex;
+  text-decoration: none;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: fit-content;
   height: 48px;
   border: 1px solid gray;
   border-radius: 8px;
@@ -112,102 +107,41 @@
   flex-direction: column;
   padding: 0;
   width: 100%;
-  height: auto;
   list-style: none;
+  text-align: center;
 }
 
-.skill-list-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  width: 327px;
-  height: 320.15px;
-}
-
-.skill-list-2 {
-  width: 327px;
-  height: 72px;
-  border-bottom: 1px solid #dfe1e6;
-}
-
-.skill-list-names {
-  width: 100%;
-  height: 72px;
-  display: flex;
-  box-sizing: border-box;
-  align-items: center;
-  padding-left: 12px;
-  justify-content: space-between;
-  padding-right: 20px;
-}
-
-.skill-list-1 .skill-list-names {
-  border-bottom: 1px solid #fff;
-}
-
-.skill-list-names h3 {
-  width: 237px;
-  height: 24px;
+.skill-list  h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 25px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
-}
-
-.skill-list-names button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
-  box-sizing: border-box;
-}
-
-.arrow-container {
-  display: flex;
-  align-items: center;
-  width: 24px;
-  height: 24px;
-  background: #fff;
-}
-
-.arrow-container svg {
-  background: #fff;
+  color: #172b4d;
 }
 
 .languages-list {
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  list-style: none;
   padding: 12px 0;
   gap: 12px;
-  width: 100%;
-  height: 248.15px;
-  list-style: none;
-  box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .languages-list li {
   display: flex;
   align-items: center;
-  width: 90%;
-  height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
   padding: 12px;
   gap: 16px;
 }
 
-.languages-list li h5 {
+.languages-list li h4 {
   height: 24px;
-  width: 215px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -222,17 +156,16 @@
   height: 48px;
   width: 48px;
   border: 1px solid #f7f7f9;
+  object-fit: contain;
 }
 
 .socials-icons-2 {
-  width: 50%;
-  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding-inline-start: 15px;
+  padding-inline-start: 0;
   gap: 10px;
 }
 
@@ -250,5 +183,10 @@
 @media screen and (max-width: 560px) {
   .social-text h2 {
     width: 10%;
+  }
+
+  .languages-list li {
+    width: 20%;
+    flex-direction: column;
   }
 }
